@@ -1,4 +1,6 @@
-# Stephen Swires
+---
+layout: default
+---
 
 ## Contact
 
