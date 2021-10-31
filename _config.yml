@@ -1,7 +1,29 @@
-theme: jekyll-theme-tactile
+remote_theme: samarsault/texture
+theme: texture
+
 title: Stephen Swires
 description: My personal website.
 url: https://swires.me
+
+# Theme settings
+texture:
+  title: Stephen Swires
+  tagline: Game Developer, Programmer
+  style: green
+
+  social_links:
+    twitter: sswires89
+    linkedIn: in/stephen-swires
+
+  showNav: true
+
+  navigation:
+    - title: Home
+      url: "/"
+    - title: Projects
+      url: "/projects"
+    - title: Contact
+      url: "/contact"
 
 # Hide the maintained by line
 github.is_project_page: false
