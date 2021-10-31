@@ -1,5 +1,6 @@
 ---
 layout: default
+title: Stephen Swires
 ---
 
 ## Contact
