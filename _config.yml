@@ -2,3 +2,6 @@ theme: jekyll-theme-tactile
 title: Stephen Swires
 description: My personal website.
 url: https://swires.me
+
+# Hide the maintained by line
+github.is_project_page: false
