@@ -5,11 +5,15 @@ title: Stephen Swires
 description: My personal website.
 url: https://swires.me
 
+permalink: /:year/:month/:title
+show_excerpts: true
+
 # Theme settings
 texture:
   title: Stephen Swires
   tagline: Game Developer, Programmer
   style: green
+  date_format: "%-d %b %Y"
 
   social_links:
     twitter: sswires89
