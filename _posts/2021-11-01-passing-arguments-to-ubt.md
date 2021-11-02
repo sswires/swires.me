@@ -12,7 +12,7 @@ When compiling your packaged game in Unreal Engine, you may want to pass command
 UnrealBuildTool (UBT) has out-of-the-box support for parsing and applying command line parameters that are passed to it through a simple attribute that can be placed on top of your build variables.
 
 ## CommandLineAttribute
-The magic of this is marking up variables in your TargetRules class with CommandLine attributes. These atttributes are iterated over by UnrealBuildTool, and if the command line attribute is specified then the value will be set to true, the simplest example is:
+The magic of this is marking up variables in your TargetRules class (ie. your Target.cs) with CommandLine attributes. These atttributes are iterated over by UnrealBuildTool, and if the command line attribute is specified then the value will be set to true, the simplest example is:
 
 ```csharp
 [CommandLine("-BetaBuild")]
