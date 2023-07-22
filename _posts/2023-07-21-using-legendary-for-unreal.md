@@ -21,6 +21,9 @@ originally designed to enable downloading games you own on EGS then allow you to
 tools like WINE. However, a hidden feature of this CLI client is that it also allows you to download Unreal Engine
 content, which is itself hidden behind a command line switch when listing content.
 
+It is important to note that Legendary will only allow you to download content you own, either bought or claimed for
+free. It is **not** a piracy tool.
+
 ## Installing Legendary
 You can grab the latest release on the [GitHub release page](https://github.com/derrod/legendary/releases/latest) where
 you can download an executable for your system, or if you have [Python](https://python.org) installed  (and added to
