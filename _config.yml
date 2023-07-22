@@ -1,7 +1,8 @@
-remote_theme: samarsault/texture
-theme: texture
+remote_theme: "mmistakes/minimal-mistakes@4.24.0"
+theme: minimal-mistakes-jekyll
 
 title: Stephen Swires
+locale: en-GB
 description: My personal website.
 url: https://swires.me
 
@@ -9,25 +10,33 @@ permalink: /:year/:month/:title
 show_excerpts: true
 
 # Theme settings
-texture:
-  title: Stephen Swires
-  tagline: Game Developer, Programmer
-  style: green
-  date_format: "%-d %b %Y"
+minimal_mistakes_skin: "air"
+subtitle: "Game Developer, Programmer"
+include: ["_pages"]
+author:
+  name: "Stephen Swires"
+  bio: "Game Developer, Programmer. Currently @ Blackbird Interactive."
+  avatar: "/assets/images/avatar.jpg"
+  location: "Calgary, AB, Canada"
+  links:
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/sswires89"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/stephen-swires/"
 
-  social_links:
-    twitter: sswires89
-    linkedIn: in/stephen-swires
-
-  showNav: true
-
-  navigation:
-    - title: Home
-      url: "/"
-    - title: Projects
-      url: "/projects"
-    - title: Contact
-      url: "/contact"
+footer:
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:steve+website@swires.me"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/sswires89"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/stephen-swires/"
 
 # Hide the maintained by line
 github.is_project_page: false

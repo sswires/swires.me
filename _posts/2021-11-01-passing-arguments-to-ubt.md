@@ -1,7 +1,16 @@
 ---
-layout: post
+layout: single
+author_profile: true
+read_time: true
+show_date: true
 title: "Passing Arguments to UnrealBuildTool"
-categories: ["Unreal Engine", "DevOps"]
+categories:
+  - Unreal Engine
+  - DevOps
+tags:
+  - Unreal Engine
+  - DevOps
+  - UnrealBuildTool
 ---
 
 When compiling your packaged game in Unreal Engine, you may want to pass command line arguments that can be consumed by your Target.cs file. This can be useful for many applications, such as differenciating builds for PC-specific storefronts
