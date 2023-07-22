@@ -107,6 +107,10 @@ legendary install Lyra_5.2 --prefix Source/LyraGame/
 
 # Download Lyra plugins (excluding modular gameplay)
 legendary install Lyra_5.2 --prefix Plugins/ --exclude Plugins/GameFeatures/
+
+# You can also chain --prefix and --exclude parameters
+# In this example we download the Source and Plugins folder
+legendary install Lyra_5.2 --prefix Plugins/ --prefix Source/
 ```
 
 ## Summary
