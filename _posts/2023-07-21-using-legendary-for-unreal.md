@@ -1,8 +1,4 @@
 ---
-layout: single
-author_profile: true
-read_time: true
-show_date: true
 title: "Using Legendary for Unreal Engine Marketplace"
 categories:
   - Unreal Engine

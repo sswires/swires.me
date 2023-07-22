@@ -1,8 +1,4 @@
 ---
-layout: single
-author_profile: true
-read_time: true
-show_date: true
 title: "Passing Arguments to UnrealBuildTool"
 categories:
   - Unreal Engine
