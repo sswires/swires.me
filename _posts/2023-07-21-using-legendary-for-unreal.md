@@ -1,5 +1,6 @@
 ---
 title: "Using Legendary for Unreal Engine Marketplace"
+toc: true
 categories:
   - Unreal Engine
 tags:
