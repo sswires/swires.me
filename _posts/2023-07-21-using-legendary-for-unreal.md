@@ -16,7 +16,7 @@ There are a few situations where this can be especially frustrating:
 
 This is where [Legendary](https://github.com/derrod/legendary) can help. Legendary is a command-line client for the
 Epic Games Store which allows you to download content you've purchased (or got for free in a giveaway). This is
-originally designed to enable downloading games you own on EGS to enable you to play them on Linux or macOS through
+originally designed to enable downloading games you own on EGS then allow you to play them on Linux or macOS through
 tools like WINE. However, a hidden feature of this CLI client is that it also allows you to download Unreal Engine
 content, which is itself hidden behind a command line switch when listing content.
 
