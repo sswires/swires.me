@@ -1,5 +1,4 @@
 remote_theme: "mmistakes/minimal-mistakes@4.24.0"
-theme: minimal-mistakes-jekyll
 
 title: Stephen Swires
 locale: en-GB
@@ -8,6 +7,9 @@ url: https://swires.me
 
 permalink: /:year/:month/:title
 show_excerpts: true
+
+plugins:
+  - jekyll-include-cache
 
 # Theme settings
 minimal_mistakes_skin: "air"
