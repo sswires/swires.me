@@ -1,7 +1,7 @@
 ---
-layout: single
 permalink: /projects
 title: Projects
+last_modified_at: 2023-07-26
 ---
 
 ## Professional Experience

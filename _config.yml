@@ -36,6 +36,9 @@ footer:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/sswires89"
+    - label: "Bluesky"
+      icon: "fas fa-fw fa-square bsky"
+      url: "https://bsky.app/profile/swires.me"
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/stephen-swires/"
@@ -49,6 +52,13 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
+      show_date: true
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
       show_date: true
 
 category_archive:
